@@ -1,4 +1,6 @@
-### React-Native Developer
+### 📱 Mobile Magician: Crafting digital wonders in the palm of your hand! ✨
+
+
 
 <!--
 **Jad-Jbara/Jad-Jbara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

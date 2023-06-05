@@ -27,5 +27,3 @@ Here are some ideas to get you started:
 />
 
 [![Bookmark Style Card](https://svg.bookmark.style/api?url=https://github.com/jad-jbara)](https://github.com/jad-jbara)
-
-

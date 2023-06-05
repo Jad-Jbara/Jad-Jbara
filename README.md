@@ -26,4 +26,6 @@ Here are some ideas to get you started:
  src="https://user-images.githubusercontent.com/85983889/219005206-f65aef46-abeb-4e27-975c-833ac956850d.svg" width="40" height="40" 
 />
 
-[![Bookmark Style Card](https://svg.bookmark.style/api?url=https://github.com/Jad-Jbara)](https://github.com/Jad-Jbara)
+[![Bookmark Style Card](https://svg.bookmark.style/api?url=https://github.com/jad-jbara)](https://github.com/jad-jbara)
+
+

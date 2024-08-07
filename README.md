@@ -27,3 +27,5 @@ Here are some ideas to get you started:
 />
 
 [![Bookmark Style Card](https://svg.bookmark.style/api?url=https://github.com/jad-jbara)](https://github.com/jad-jbara)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/nuttyjackj)

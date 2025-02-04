@@ -1,36 +1,55 @@
-<h1 align="center">📱 Mobile Magician: Crafting Digital Wonders in the Palm of Your Hand! ✨</h1>
+<h1 align="center">
+  🚀 Mobile Magician | Full-Stack Visionary  
+  <br>🛠️ Creating Seamless & Powerful Digital Experiences
+</h1>
 
-<div align="center">
-  <img style="filter: invert(71%); sepia(70%); saturate(5014%); hue-rotate(157deg); brightness(89%); contrast(101%);" 
-       src="https://user-images.githubusercontent.com/85983889/219005206-f65aef46-abeb-4e27-975c-833ac956850d.svg" width="40" height="40" />
-  <img style="filter: invert(71%); sepia(70%); saturate(5014%); hue-rotate(157deg); brightness(89%); contrast(101%);" 
-       src="https://user-images.githubusercontent.com/85983889/219005206-f65aef46-abeb-4e27-975c-833ac956850d.svg" width="40" height="40" />
-  <img style="filter: invert(71%); sepia(70%); saturate(5014%); hue-rotate(157deg); brightness(89%); contrast(101%);" 
-       src="https://user-images.githubusercontent.com/85983889/219005206-f65aef46-abeb-4e27-975c-833ac956850d.svg" width="40" height="40" />
-</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" alt="Coding gif">
+</p>
 
 ---
 
-### 🔭 Currently
-- Enhancing and creating **dynamic mobile experiences**.
-- Diving deep into backend development to strengthen my full-stack knowledge.
+## 🌟 About Me  
+👋 Hey there! I’m **Jad Jbara**, a passionate **Full-Stack Mobile Engineer** pushing the boundaries of **React Native, Jetpack Compose, and Backend Development**.  
 
-### 🌱 Always Learning
-- Exploring new frameworks and technologies to expand my toolkit.
-- Building clean, modular code that blends performance with aesthetic finesse.
+💡 I thrive on **building high-performance, pixel-perfect mobile experiences** and crafting elegant, scalable architectures.
 
-### 💬 Ask Me About
-- Crafting **responsive** and **animated interfaces** with React Native and Kotlin.
-- My experience integrating **RESTful APIs** and **GraphQL** into mobile apps.
+🔥 **Let’s build the future, one smooth animation at a time!**  
 
 ---
 
-<div align="center">
+## ⚡ Tech Stack  
+### 🏗️ **Frontend & Mobile**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,androidstudio,kotlin,tailwind,styledcomponents,css,scss&theme=dark" />
+</p>
+
+### ⚙️ **Backend & Databases**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,postgres,redis,kafka,docker&theme=dark" />
+</p>
+
+### 🎨 **Tools & DevOps**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
+</p>
+
+---
+
+## 📊 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jad-jbara&show_icons=true&theme=radical&hide_border=true" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=jad-jbara&theme=radical&hide_border=true" width="49%" />
+</p>
+
+---
+
+## 🎯 Let's Connect!  
+<p align="center">
   <a href="https://github.com/jad-jbara">
-    <img src="https://svg.bookmark.style/api?url=https://github.com/jad-jbara" alt="Bookmark Style Card" />
+    <img src="https://img.shields.io/badge/-GitHub-333?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <br>
   <a href="https://buymeacoffee.com/nuttyjackj">
-    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" width="200"/>
+    <img src="https://img.shields.io/badge/☕-Buy%20Me%20a%20Coffee-orange?style=for-the-badge" />
   </a>
-</div>
+</p>

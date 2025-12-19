@@ -1,55 +1,134 @@
-<h1 align="center">
-  🚀 Mobile Magician | Full-Stack Visionary  
-  <br>🛠️ Creating Seamless & Powerful Digital Experiences
-</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" alt="Coding gif">
-</p>
+```ascii
+     _           _        _ _                        
+    | | __ _  __| |      | | |__   __ _ _ __ __ _   
+ _  | |/ _` |/ _` |   _  | | '_ \ / _` | '__/ _` |  
+| |_| | (_| | (_| |  | |_| | |_) | (_| | | | (_| |  
+ \___/ \__,_|\__,_|   \___/|_.__/ \__,_|_|  \__,_|  
+````
 
----
+### Mobile Engineer • Full-Stack Builder • Systems Thinker
 
-## 🌟 About Me  
-👋 Hey there! I’m **Jad Jbara**, a passionate **Full-Stack Mobile Engineer** pushing the boundaries of **React Native, Jetpack Compose, and Backend Development**.  
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=Crafting+motion-first+mobile+experiences;React+Native+%7C+Jetpack+Compose+%7C+TypeScript;Designing+scalable+backend+systems;From+pixel+to+production" alt="Typing SVG" />
 
-💡 I thrive on **building high-performance, pixel-perfect mobile experiences** and crafting elegant, scalable architectures.
-
-🔥 **Let’s build the future, one smooth animation at a time!**  
+</div>
 
 ---
 
-## ⚡ Tech Stack  
-### 🏗️ **Frontend & Mobile**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,androidstudio,kotlin,tailwind,styledcomponents,css,scss&theme=dark" />
-</p>
+### `$ whoami`
 
-### ⚙️ **Backend & Databases**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,postgres,redis,kafka,docker&theme=dark" />
-</p>
-
-### 🎨 **Tools & DevOps**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
-</p>
-
----
-
-## 📊 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jad-jbara&show_icons=true&theme=radical&hide_border=true" width="49%" />
-  <img src="https://streak-stats.demolab.com/?user=jad-jbara&theme=radical&hide_border=true" width="49%" />
-</p>
+```typescript
+const jad = {
+  location: "Lebanon 🇱🇧",
+  currently: "Building mobile products and the systems behind them",
+  focus: [
+    "Making mobile apps feel native, responsive, and intentional",
+    "Designing clean, scalable backend architectures",
+    "Bridging frontend intuition with backend discipline"
+  ],
+  experience: [
+    "React Native & Jetpack Compose",
+    "Node.js, Prisma, PostgreSQL",
+    "Event-driven and real-time systems (incl. IoT platforms)"
+  ],
+  funFact: "I still trust console.log more than most debuggers",
+  philosophy: "Good software should feel calm, even when it's doing a lot"
+};
+```
 
 ---
 
-## 🎯 Let's Connect!  
-<p align="center">
-  <a href="https://github.com/jad-jbara">
-    <img src="https://img.shields.io/badge/-GitHub-333?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://buymeacoffee.com/nuttyjackj">
-    <img src="https://img.shields.io/badge/☕-Buy%20Me%20a%20Coffee-orange?style=for-the-badge" />
-  </a>
-</p>
+### `$ ls -la ~/skills`
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+#### 📱 Mobile
+
+```yaml
+platforms:
+  - React Native
+  - Android Native (Kotlin & Jetpack Compose)
+  - iOS Native (SwiftUI & UIKit)
+
+focus:
+  - Motion & gestures
+  - Custom component systems
+  - Performance & responsiveness
+  - Pixel-level UI precision
+```
+
+</td>
+<td valign="top" width="50%">
+
+#### 🌐 Web & Frontend
+
+```yaml
+technologies:
+  - TypeScript / JavaScript
+  - React / Next.js / Vite
+  - Tailwind CSS
+  - Zustand / React Query / SWR
+
+expertise:
+  - Component-driven architecture
+  - State management (Context API)
+  - Responsive & accessible design
+```
+
+</td>
+</tr>
+
+<tr>
+<td valign="top" width="50%">
+
+#### ⚡ Backend
+
+```yaml
+stack:
+  - Node.js / Express
+  - Prisma ORM
+  - PostgreSQL / Redis
+
+patterns:
+  - REST & event-driven APIs
+  - Authorization & domain modeling
+  - Real-time data flows
+  - Service-oriented architecture
+```
+
+</td>
+<td valign="top" width="50%">
+
+#### 🛠️ Infra & Tooling
+
+```yaml
+tools:
+  - Docker & Docker Compose
+  - AWS (ECS, Lambda, RDS)
+  - GitHub Actions
+
+practices:
+  - CI/CD pipelines
+  - Environment isolation
+  - Observability & debugging
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+### `$ cat current_projects.md`
+
+```diff
++ 📱  Building motion-first mobile apps with React Native & Native Modules
++ ⚙️  Designing scalable backend APIs with Prisma & PostgreSQL
++ 🧠  Refining authorization, roles, and domain boundaries
++ 🔄  Applying event-driven patterns
++ 🌐  IoT systems
++ 💰  Fintech solutions
+```

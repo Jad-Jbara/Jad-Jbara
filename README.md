@@ -1,134 +1,17 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Jad Jbara — I build the app, the web app, and the services under both. Full-stack, mobile-first, Beirut. A browser window charting data with a phone in front of it presenting a bottom sheet, over a frame-time graph held under the 16.6 millisecond budget." src="assets/hero-light.svg">
+</picture>
 
-```ascii
-     _           _        _ _                        
-    | | __ _  __| |      | | |__   __ _ _ __ __ _   
- _  | |/ _` |/ _` |   _  | | '_ \ / _` | '__/ _` |  
-| |_| | (_| | (_| |  | |_| | |_) | (_| | | | (_| |  
- \___/ \__,_|\__,_|   \___/|_.__/ \__,_|_|  \__,_|  
-````
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="The stack in four layers: clients, what people touch — React Native, Next.js, TypeScript. api, the contract — Node, REST and SSE, Zod. domain, where the rules live — services, authorization, events. data, the source of truth — Postgres, Prisma, Redis. A pulse travels down a channel on the left, lighting each layer as it passes." src="assets/stack-light.svg">
+</picture>
 
-### Mobile Engineer • Full-Stack Builder • Systems Thinker
+Mobile and web on one shared service layer, and considerably more real-time work than I planned for.
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=Crafting+motion-first+mobile+experiences;React+Native+%7C+Jetpack+Compose+%7C+TypeScript;Designing+scalable+backend+systems;From+pixel+to+production" alt="Typing SVG" />
+**[jadjbara.com](https://jadjbara.com)**  ·  [jado.jbara@gmail.com](mailto:jado.jbara@gmail.com)
 
-</div>
-
----
-
-### `$ whoami`
-
-```typescript
-const jad = {
-  location: "Lebanon 🇱🇧",
-  currently: "Building mobile products and the systems behind them",
-  focus: [
-    "Making mobile apps feel native, responsive, and intentional",
-    "Designing clean, scalable backend architectures",
-    "Bridging frontend intuition with backend discipline"
-  ],
-  experience: [
-    "React Native & Jetpack Compose",
-    "Node.js, Prisma, PostgreSQL",
-    "Event-driven and real-time systems (incl. IoT platforms)"
-  ],
-  funFact: "I still trust console.log more than most debuggers",
-  philosophy: "Good software should feel calm, even when it's doing a lot"
-};
-```
-
----
-
-### `$ ls -la ~/skills`
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-#### 📱 Mobile
-
-```yaml
-platforms:
-  - React Native
-  - Android Native (Kotlin & Jetpack Compose)
-  - iOS Native (SwiftUI & UIKit)
-
-focus:
-  - Motion & gestures
-  - Custom component systems
-  - Performance & responsiveness
-  - Pixel-level UI precision
-```
-
-</td>
-<td valign="top" width="50%">
-
-#### 🌐 Web & Frontend
-
-```yaml
-technologies:
-  - TypeScript / JavaScript
-  - React / Next.js / Vite
-  - Tailwind CSS
-  - Zustand / React Query / SWR
-
-expertise:
-  - Component-driven architecture
-  - State management (Context API)
-  - Responsive & accessible design
-```
-
-</td>
-</tr>
-
-<tr>
-<td valign="top" width="50%">
-
-#### ⚡ Backend
-
-```yaml
-stack:
-  - Node.js / Express
-  - Prisma ORM
-  - PostgreSQL / Redis
-
-patterns:
-  - REST & event-driven APIs
-  - Authorization & domain modeling
-  - Real-time data flows
-  - Service-oriented architecture
-```
-
-</td>
-<td valign="top" width="50%">
-
-#### 🛠️ Infra & Tooling
-
-```yaml
-tools:
-  - Docker & Docker Compose
-  - AWS (ECS, Lambda, RDS)
-  - GitHub Actions
-
-practices:
-  - CI/CD pipelines
-  - Environment isolation
-  - Observability & debugging
-```
-
-</td>
-</tr>
-</table>
-
----
-
-### `$ cat current_projects.md`
-
-```diff
-+ 📱  Building motion-first mobile apps with React Native & Native Modules
-+ ⚙️  Designing scalable backend APIs with Prisma & PostgreSQL
-+ 🧠  Refining authorization, roles, and domain boundaries
-+ 🔄  Applying event-driven patterns
-+ 🌐  IoT systems
-+ 💰  Fintech solutions
-```
+<sub>Both panels are hand-written SVG animated with CSS — <a href="tools/build-assets.mjs"><code>tools/build-assets.mjs</code></a> builds light and dark from one source.</sub>

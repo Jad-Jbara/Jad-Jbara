@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 364" width="880" height="364" fill="none" role="img" aria-label="The stack in four layers: clients, what people touch; api, the contract; domain, where the rules live; data, the source of truth. A pulse travels down a channel on the left, lighting each layer as it passes.">
+<defs>
+  <filter id="beamglow" x="-300%" y="-8%" width="700%" height="116%">
+    <feGaussianBlur stdDeviation="3"/>
+  </filter>
+</defs>
+<style><![CDATA[
+  .ly{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#FAFAFA;font-size:16.5px;font-weight:600;letter-spacing:-.015em}
+  .nt{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8B8B95;font-size:13.5px}
+  .tc{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;fill:#8B8B95;font-size:11px;letter-spacing:.03em}
+  .cp{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;fill:#8B8B95;font-size:10.5px;letter-spacing:.06em}
+  .beam{stroke-dasharray:30 216;animation:run 4.2s linear infinite}
+  @keyframes run{from{stroke-dashoffset:30}to{stroke-dashoffset:-216}}
+  .nd{animation:lit 4.2s linear infinite}
+  @keyframes lit{0%,6%{opacity:1}14%,100%{opacity:.3}}
+  .chip{animation:warm 4.2s linear infinite}
+  @keyframes warm{0%,6%{opacity:.34}14%,100%{opacity:.15}}
+  @media (prefers-reduced-motion: reduce){
+    .beam{animation:none;stroke-dasharray:none;opacity:.5}
+    .nd{animation:none;opacity:.75} .chip{animation:none;opacity:.18} }
+]]></style>
+<rect x=".5" y=".5" width="879" height="363" rx="20" fill="#09090B" stroke="#232328"/>
+
+<path d="M78 70 V286" stroke="#232328" stroke-width="1.5"/>
+<g filter="url(#beamglow)" opacity=".85">
+  <path d="M78 70 V286" stroke="#3FD69B" stroke-width="3.5" stroke-linecap="round" class="beam"/>
+</g>
+<path d="M78 70 V286" stroke="#3FD69B" stroke-width="2.25" stroke-linecap="round" class="beam"/>
+
+<g>
+  <path d="M78 70 H104" stroke="#232328" stroke-width="1.5"/>
+  <rect x="104" y="40" width="728" height="60" rx="14" fill="#111114" stroke="#232328"/>
+  <rect class="chip" x="122" y="57" width="26" height="26" rx="8" fill="#7C5CFF" opacity=".15" style="animation-delay:0.00s"/>
+  <rect x="131" y="66" width="8" height="8" rx="2.5" fill="#7C5CFF"/>
+  <text class="ly" x="162" y="76">clients</text>
+  <text class="nt" x="270" y="75">what people touch</text>
+  <text class="tc" x="810" y="75" text-anchor="end">react native  ·  next.js  ·  typescript</text>
+  <circle class="nd" cx="78" cy="70" r="4" fill="#3FD69B" opacity=".3" style="animation-delay:0.00s"/>
+</g>
+<g>
+  <path d="M78 142 H104" stroke="#232328" stroke-width="1.5"/>
+  <rect x="104" y="112" width="728" height="60" rx="14" fill="#111114" stroke="#232328"/>
+  <rect class="chip" x="122" y="129" width="26" height="26" rx="8" fill="#7C5CFF" opacity=".15" style="animation-delay:1.40s"/>
+  <rect x="131" y="138" width="8" height="8" rx="2.5" fill="#7C5CFF"/>
+  <text class="ly" x="162" y="148">api</text>
+  <text class="nt" x="270" y="147">the contract</text>
+  <text class="tc" x="810" y="147" text-anchor="end">node  ·  rest + sse  ·  zod</text>
+  <circle class="nd" cx="78" cy="142" r="4" fill="#3FD69B" opacity=".3" style="animation-delay:1.40s"/>
+</g>
+<g>
+  <path d="M78 214 H104" stroke="#232328" stroke-width="1.5"/>
+  <rect x="104" y="184" width="728" height="60" rx="14" fill="#111114" stroke="#232328"/>
+  <rect class="chip" x="122" y="201" width="26" height="26" rx="8" fill="#7C5CFF" opacity=".15" style="animation-delay:2.80s"/>
+  <rect x="131" y="210" width="8" height="8" rx="2.5" fill="#7C5CFF"/>
+  <text class="ly" x="162" y="220">domain</text>
+  <text class="nt" x="270" y="219">where the rules live</text>
+  <text class="tc" x="810" y="219" text-anchor="end">services  ·  authorization  ·  events</text>
+  <circle class="nd" cx="78" cy="214" r="4" fill="#3FD69B" opacity=".3" style="animation-delay:2.80s"/>
+</g>
+<g>
+  <path d="M78 286 H104" stroke="#232328" stroke-width="1.5"/>
+  <rect x="104" y="256" width="728" height="60" rx="14" fill="#111114" stroke="#232328"/>
+  <rect class="chip" x="122" y="273" width="26" height="26" rx="8" fill="#7C5CFF" opacity=".15" style="animation-delay:4.20s"/>
+  <rect x="131" y="282" width="8" height="8" rx="2.5" fill="#7C5CFF"/>
+  <text class="ly" x="162" y="292">data</text>
+  <text class="nt" x="270" y="291">the source of truth</text>
+  <text class="tc" x="810" y="291" text-anchor="end">postgres  ·  prisma  ·  redis</text>
+  <circle class="nd" cx="78" cy="286" r="4" fill="#3FD69B" opacity=".3" style="animation-delay:4.20s"/>
+</g>
+
+<text class="cp" x="48" y="342">one request, top to bottom</text>
+</svg>

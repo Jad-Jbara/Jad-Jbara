@@ -13,5 +13,3 @@
 Mobile and web on one shared service layer, and considerably more real-time work than I planned for.
 
 **[jadjbara.com](https://jadjbara.com)**  ·  [jado.jbara@gmail.com](mailto:jado.jbara@gmail.com)
-
-<sub>Both panels are hand-written SVG animated with CSS — <a href="tools/build-assets.mjs"><code>tools/build-assets.mjs</code></a> builds light and dark from one source.</sub>

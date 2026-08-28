@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 552" width="880" height="552" fill="none" role="img" aria-labelledby="h">
+<title id="h">Jad Jbara — I build the app, the web app, and the services under both. A browser window charting data with a phone in front of it presenting a bottom sheet, over a frame-time graph held under the 16.6 millisecond budget.</title>
+<defs>
+  <clipPath id="card"><rect width="880" height="552" rx="20"/></clipPath>
+  <clipPath id="win"><rect x="48" y="216" width="720" height="268" rx="14"/></clipPath>
+  <clipPath id="scr"><rect x="683" y="249" width="132" height="274" rx="17"/></clipPath>
+  <clipPath id="plot"><rect x="64" y="422" width="576" height="52"/></clipPath>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#5B3DF5" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#5B3DF5" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="under" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#3FD69B" stop-opacity=".22"/><stop offset="100%" stop-color="#3FD69B" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#7C5CFF"/><stop offset="100%" stop-color="#7C5CFF" stop-opacity=".45"/>
+  </linearGradient>
+  <linearGradient id="eg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#000"/><stop offset="6%" stop-color="#fff"/>
+    <stop offset="95%" stop-color="#fff"/><stop offset="100%" stop-color="#000"/>
+  </linearGradient>
+  <mask id="edge"><rect x="64" y="422" width="576" height="52" fill="url(#eg)"/></mask>
+  <filter id="lift" x="-30%" y="-20%" width="170%" height="150%">
+    <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000" flood-opacity="0.16"/>
+  </filter>
+</defs>
+<style><![CDATA[
+  .n{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#09090B;font-weight:640;letter-spacing:-.03em}
+  .l{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#63636E;font-size:17px}
+  .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;fill:#63636E;font-size:11px;letter-spacing:.09em}
+  .s{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;fill:#8B8B95;font-size:9.5px;letter-spacing:.05em}
+  .si{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;fill:#FAFAFA;font-size:9.5px;letter-spacing:.05em}
+
+  /* base state is the finished state, so a still render is always correct */
+  .bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow 9s cubic-bezier(0.16, 1, 0.3, 1) infinite}
+  @keyframes grow{0%,4%{transform:scaleY(.04)}22%,100%{transform:scaleY(1)}}
+  .b0{animation-delay:0.000s}.b1{animation-delay:0.045s}.b2{animation-delay:0.090s}.b3{animation-delay:0.135s}.b4{animation-delay:0.180s}.b5{animation-delay:0.225s}.b6{animation-delay:0.270s}.b7{animation-delay:0.315s}.b8{animation-delay:0.360s}.b9{animation-delay:0.405s}.b10{animation-delay:0.450s}
+  .row{animation:enter 9s cubic-bezier(0.16, 1, 0.3, 1) infinite}
+  .r2{animation-delay:.06s}.r3{animation-delay:.12s}.r4{animation-delay:.18s}.r5{animation-delay:.24s}
+  @keyframes enter{0%,7%{opacity:0;transform:translateY(6px)}16%,100%{opacity:1;transform:translateY(0)}}
+  .sheet{animation:present 9s infinite}
+  @keyframes present{
+    0%,36%{transform:translateY(164px);animation-timing-function:cubic-bezier(0.16, 1, 0.3, 1)}
+    45%,74%{transform:translateY(0);animation-timing-function:cubic-bezier(.7,0,.84,0)}
+    83%,100%{transform:translateY(164px)}}
+  .scrim{animation:dim 9s infinite}
+  @keyframes dim{0%,36%{opacity:0}45%,74%{opacity:.58}83%,100%{opacity:0}}
+  .trace{animation:scroll 15s linear infinite}
+  @keyframes scroll{to{transform:translateX(-576px)}}
+  .tick{opacity:0;animation:tick 3.6s steps(1) infinite}
+  @keyframes tick{0%,16.6%{opacity:1}16.7%,100%{opacity:0}}
+  .t0{animation-delay:0.0s}.t1{animation-delay:0.6s}.t2{animation-delay:1.2s}.t3{animation-delay:1.8s}.t4{animation-delay:2.4s}.t5{animation-delay:3.0s}
+  .dot{animation:pulse 3.6s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+  @media (prefers-reduced-motion: reduce){
+    .bar,.row,.sheet,.scrim,.trace,.dot{animation:none}
+    .scrim{opacity:.58}.tick{animation:none;opacity:0}.t0{opacity:1}}
+]]></style>
+<g clip-path="url(#card)">
+  <rect width="880" height="552" fill="#FFFFFF"/>
+  <ellipse cx="640" cy="380" rx="340" ry="260" fill="url(#glow)"/>
+
+  <text class="n" x="48" y="112" font-size="60">Jad Jbara</text>
+  <text class="l" x="48" y="152">I build the app, the web app, and the services under both.</text>
+  <text class="m" x="48" y="182">full-stack  ·  mobile-first  ·  beirut</text>
+
+  <g filter="url(#lift)">
+  <rect x="48" y="216" width="720" height="268" rx="14" fill="#17171B" stroke="#2C2C33"/>
+  <g clip-path="url(#win)">
+    <rect x="48" y="216" width="720" height="34" fill="#141418"/>
+    <path d="M48 250.5 H768" stroke="#2C2C33"/>
+    <circle cx="70" cy="233" r="4" fill="#3A3A42"/><circle cx="86" cy="233" r="4" fill="#3A3A42"/><circle cx="102" cy="233" r="4" fill="#3A3A42"/>
+    <rect x="130" y="225.5" width="164" height="16" rx="8" fill="#0B0B0E"/>
+    <rect x="141" y="231" width="70" height="5" rx="2.5" fill="#8B8B95" opacity=".7"/>
+
+    <rect x="48" y="250" width="140" height="234" fill="#141418"/>
+    <path d="M188.5 250 V484" stroke="#2C2C33"/>
+    <g opacity="0.5">
+      
+      <rect x="72" y="268" width="10" height="10" rx="3" fill="#8B8B95"/>
+      <rect x="91" y="270" width="56" height="6" rx="3" fill="#8B8B95" opacity="0.6"/>
+    </g><g opacity="1">
+      <rect x="60" y="291" width="116" height="28" rx="8" fill="#7C5CFF" opacity=".16"/>
+      <rect x="72" y="300" width="10" height="10" rx="3" fill="#7C5CFF"/>
+      <rect x="91" y="302" width="48" height="6" rx="3" fill="#FAFAFA" opacity="0.85"/>
+    </g><g opacity="0.5">
+      
+      <rect x="72" y="332" width="10" height="10" rx="3" fill="#8B8B95"/>
+      <rect x="91" y="334" width="40" height="6" rx="3" fill="#8B8B95" opacity="0.6"/>
+    </g><g opacity="0.5">
+      
+      <rect x="72" y="364" width="10" height="10" rx="3" fill="#8B8B95"/>
+      <rect x="91" y="366" width="32" height="6" rx="3" fill="#8B8B95" opacity="0.6"/>
+    </g>
+
+    <rect x="216" y="270" width="94" height="10" rx="5" fill="#FAFAFA" opacity=".85"/>
+    <rect x="322" y="270" width="44" height="10" rx="5" fill="#8B8B95" opacity=".4"/>
+    <rect class="bar b0" x="216" y="338" width="24" height="46" rx="4" fill="url(#bar)"/>
+    <rect class="bar b1" x="258" y="322" width="24" height="62" rx="4" fill="url(#bar)"/>
+    <rect class="bar b2" x="300" y="346" width="24" height="38" rx="4" fill="url(#bar)"/>
+    <rect class="bar b3" x="342" y="310" width="24" height="74" rx="4" fill="url(#bar)"/>
+    <rect class="bar b4" x="384" y="329" width="24" height="55" rx="4" fill="url(#bar)"/>
+    <rect class="bar b5" x="426" y="296" width="24" height="88" rx="4" fill="url(#bar)"/>
+    <rect class="bar b6" x="468" y="342" width="24" height="42" rx="4" fill="url(#bar)"/>
+    <rect class="bar b7" x="510" y="317" width="24" height="67" rx="4" fill="url(#bar)"/>
+    <rect class="bar b8" x="552" y="305" width="24" height="79" rx="4" fill="url(#bar)"/>
+    <rect class="bar b9" x="594" y="333" width="24" height="51" rx="4" fill="url(#bar)"/>
+    <rect class="bar b10" x="636" y="313" width="24" height="71" rx="4" fill="url(#bar)"/>
+    <path d="M216 384.5 H660" stroke="#2C2C33"/>
+
+    <rect x="48" y="412" width="720" height="72" fill="#141418"/>
+    <path d="M48 412.5 H768" stroke="#2C2C33"/>
+    <text class="s" x="64" y="431">FRAME TIME</text>
+    <circle class="dot" cx="148" cy="427.5" r="2.75" fill="#3FD69B"/>
+    <text class="si tick t0" x="159" y="431">8.4 ms</text><text class="si tick t1" x="159" y="431">7.1 ms</text><text class="si tick t2" x="159" y="431">9.6 ms</text><text class="si tick t3" x="159" y="431">6.8 ms</text><text class="si tick t4" x="159" y="431">11.2 ms</text><text class="si tick t5" x="159" y="431">7.9 ms</text>
+    <text class="s" x="640" y="431" text-anchor="end">16.6 ms budget</text>
+    <g clip-path="url(#plot)" mask="url(#edge)">
+      <path d="M64 440 H640" stroke="#3A3A42" stroke-dasharray="2 4"/>
+      <g class="trace">
+        <path d="M64 451.29 L77.24 458.44 L90.48 456.45 L103.72 452.8 L116.97 455.38 L130.21 456.56 L143.45 453.76 L156.69 453.39 L169.93 460.28 L183.17 452.72 L196.41 459.17 L209.66 454.6 L222.9 452.76 L236.14 460.41 L249.38 457.75 L262.62 460.64 L275.86 460.3 L289.1 455.37 L302.34 453.32 L315.59 454.26 L328.83 454.82 L342.07 460.37 L355.31 451.12 L368.55 456.83 L381.79 459.22 L395.03 453.58 L408.28 460.33 L421.52 454.31 L434.76 459.69 L448 460.67 L461.24 455.02 L474.48 454.84 L487.72 453.82 L500.97 449.48 L514.21 454.04 L527.45 454.81 L540.69 460.6 L553.93 458.11 L567.17 459.66 L580.41 455.49 L593.66 457.75 L606.9 458.44 L620.14 454.42 L633.38 458.33 L646.62 451.29 L659.86 458.44 L673.1 456.45 L686.34 452.8 L699.59 455.38 L712.83 456.56 L726.07 453.76 L739.31 453.39 L752.55 460.28 L765.79 452.72 L779.03 459.17 L792.28 454.6 L805.52 452.76 L818.76 460.41 L832 457.75 L845.24 460.64 L858.48 460.3 L871.72 455.37 L884.97 453.32 L898.21 454.26 L911.45 454.82 L924.69 460.37 L937.93 451.12 L951.17 456.83 L964.41 459.22 L977.66 453.58 L990.9 460.33 L1004.14 454.31 L1017.38 459.69 L1030.62 460.67 L1043.86 455.02 L1057.1 454.84 L1070.34 453.82 L1083.59 449.48 L1096.83 454.04 L1110.07 454.81 L1123.31 460.6 L1136.55 458.11 L1149.79 459.66 L1163.03 455.49 L1176.28 457.75 L1189.52 458.44 L1202.76 454.42 L1216 458.33 L1216 474 L64 474 Z" fill="url(#under)"/>
+        <path d="M64 451.29 L77.24 458.44 L90.48 456.45 L103.72 452.8 L116.97 455.38 L130.21 456.56 L143.45 453.76 L156.69 453.39 L169.93 460.28 L183.17 452.72 L196.41 459.17 L209.66 454.6 L222.9 452.76 L236.14 460.41 L249.38 457.75 L262.62 460.64 L275.86 460.3 L289.1 455.37 L302.34 453.32 L315.59 454.26 L328.83 454.82 L342.07 460.37 L355.31 451.12 L368.55 456.83 L381.79 459.22 L395.03 453.58 L408.28 460.33 L421.52 454.31 L434.76 459.69 L448 460.67 L461.24 455.02 L474.48 454.84 L487.72 453.82 L500.97 449.48 L514.21 454.04 L527.45 454.81 L540.69 460.6 L553.93 458.11 L567.17 459.66 L580.41 455.49 L593.66 457.75 L606.9 458.44 L620.14 454.42 L633.38 458.33 L646.62 451.29 L659.86 458.44 L673.1 456.45 L686.34 452.8 L699.59 455.38 L712.83 456.56 L726.07 453.76 L739.31 453.39 L752.55 460.28 L765.79 452.72 L779.03 459.17 L792.28 454.6 L805.52 452.76 L818.76 460.41 L832 457.75 L845.24 460.64 L858.48 460.3 L871.72 455.37 L884.97 453.32 L898.21 454.26 L911.45 454.82 L924.69 460.37 L937.93 451.12 L951.17 456.83 L964.41 459.22 L977.66 453.58 L990.9 460.33 L1004.14 454.31 L1017.38 459.69 L1030.62 460.67 L1043.86 455.02 L1057.1 454.84 L1070.34 453.82 L1083.59 449.48 L1096.83 454.04 L1110.07 454.81 L1123.31 460.6 L1136.55 458.11 L1149.79 459.66 L1163.03 455.49 L1176.28 457.75 L1189.52 458.44 L1202.76 454.42 L1216 458.33" stroke="#3FD69B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+  </g>
+
+  <g filter="url(#lift)">
+  <rect x="678" y="244" width="142" height="284" rx="22" fill="#17171B" stroke="#2C2C33"/>
+  <rect x="683" y="249" width="132" height="274" rx="17" fill="#0B0B0E"/>
+  <g clip-path="url(#scr)">
+    <rect x="731" y="259" width="36" height="4.5" rx="2.25" fill="#2C2C33"/>
+    <rect x="697" y="279" width="58" height="9" rx="4.5" fill="#FAFAFA" opacity=".9"/>
+    <circle cx="792" cy="283" r="8.5" fill="#7C5CFF" opacity=".28"/>
+    <g class="row r1">
+      <rect x="695" y="309" width="108" height="36" rx="10" fill="#212127"/>
+      <rect x="704" y="317" width="21" height="21" rx="6" fill="#7C5CFF" opacity=".34"/>
+      <rect x="733" y="319" width="52" height="6" rx="3" fill="#FAFAFA" opacity=".72"/>
+      <rect x="733" y="331" width="33" height="5" rx="2.5" fill="#8B8B95" opacity=".5"/>
+    </g>
+    <g class="row r2">
+      <rect x="695" y="353" width="108" height="36" rx="10" fill="#212127"/>
+      <rect x="704" y="361" width="21" height="21" rx="6" fill="#7C5CFF" opacity=".34"/>
+      <rect x="733" y="363" width="43" height="6" rx="3" fill="#FAFAFA" opacity=".72"/>
+      <rect x="733" y="375" width="41" height="5" rx="2.5" fill="#8B8B95" opacity=".5"/>
+    </g>
+    <g class="row r3">
+      <rect x="695" y="397" width="108" height="36" rx="10" fill="#212127"/>
+      <rect x="704" y="405" width="21" height="21" rx="6" fill="#7C5CFF" opacity=".34"/>
+      <rect x="733" y="407" width="34" height="6" rx="3" fill="#FAFAFA" opacity=".72"/>
+      <rect x="733" y="419" width="49" height="5" rx="2.5" fill="#8B8B95" opacity=".5"/>
+    </g>
+    <g class="row r4">
+      <rect x="695" y="441" width="108" height="36" rx="10" fill="#212127"/>
+      <rect x="704" y="449" width="21" height="21" rx="6" fill="#7C5CFF" opacity=".34"/>
+      <rect x="733" y="451" width="52" height="6" rx="3" fill="#FAFAFA" opacity=".72"/>
+      <rect x="733" y="463" width="33" height="5" rx="2.5" fill="#8B8B95" opacity=".5"/>
+    </g>
+    <g class="row r5">
+      <rect x="695" y="485" width="108" height="36" rx="10" fill="#212127"/>
+      <rect x="704" y="493" width="21" height="21" rx="6" fill="#7C5CFF" opacity=".34"/>
+      <rect x="733" y="495" width="43" height="6" rx="3" fill="#FAFAFA" opacity=".72"/>
+      <rect x="733" y="507" width="41" height="5" rx="2.5" fill="#8B8B95" opacity=".5"/>
+    </g>
+    <rect class="scrim" x="683" y="249" width="132" height="274" fill="#000"/>
+    <g class="sheet">
+      <rect x="683" y="367" width="132" height="174" rx="18" fill="#1A1A1F" stroke="#2C2C33"/>
+      <rect x="734" y="376" width="30" height="4" rx="2" fill="#3A3A42"/>
+      <rect x="699" y="393" width="72" height="9" rx="4.5" fill="#FAFAFA" opacity=".9"/>
+      <rect x="699" y="415" width="100" height="6" rx="3" fill="#8B8B95" opacity=".45"/>
+      <rect x="699" y="429" width="78" height="6" rx="3" fill="#8B8B95" opacity=".45"/>
+      <rect x="699" y="451" width="100" height="31" rx="10" fill="#7C5CFF"/>
+      <rect x="729" y="463" width="40" height="7" rx="3.5" fill="#FFFFFF" opacity=".95"/>
+    </g>
+    <rect x="727" y="512" width="44" height="4" rx="2" fill="#FAFAFA" opacity=".3"/>
+  </g>
+  </g>
+  <rect x=".5" y=".5" width="879" height="551" rx="20" stroke="#E0E0E7"/>
+</g>
+</svg>
